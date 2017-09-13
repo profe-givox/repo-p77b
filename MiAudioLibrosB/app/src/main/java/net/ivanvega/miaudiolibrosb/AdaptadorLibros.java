@@ -17,6 +17,7 @@ import java.util.Vector;
 public class AdaptadorLibros extends
         RecyclerView.Adapter<AdaptadorLibros.ViewHolder> {
 
+
     private LayoutInflater inflador; //Crea Layouts a partir del XML protected Vector<Libro> vectorLibros; //Vector con libros a visualizar
 
     private Context contexto;
