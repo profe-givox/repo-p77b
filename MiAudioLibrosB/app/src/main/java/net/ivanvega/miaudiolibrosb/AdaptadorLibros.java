@@ -23,7 +23,14 @@ public class AdaptadorLibros extends
     private Context contexto;
     private Vector<Libro> vectorLibros;
 
-    public AdaptadorLibros(Context contexto, Vector<Libro> vectorLibros) { inflador = (LayoutInflater) contexto
+    private View.OnClickListener onClickListener;
+
+    public void setOnItemClickListener(View.OnClickListener onClickListener){
+        this.onClickListener = onClickListener;
+    }
+
+    public AdaptadorLibros(Context contexto, Vector<Libro> vectorLibros) {
+        inflador = (LayoutInflater) contexto
             .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         this.vectorLibros = vectorLibros;
         this.contexto = contexto;
@@ -35,16 +42,28 @@ public class AdaptadorLibros extends
         public TextView titulo;
         public ViewHolder(View itemView) {
             super(itemView);
-            portada = (ImageView) itemView.findViewById(R.id.portada); portada.setScaleType(ImageView.ScaleType.CENTER_INSIDE); titulo = (TextView) itemView.findViewById(R.id.titulo);
+            portada = (ImageView) itemView.findViewById(R.id.portada);
+            portada.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+            titulo = (TextView) itemView.findViewById(R.id.titulo);
         } }
+
+
     // Creamos el ViewHolder con las vista de un elemento sin personalizar
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) { // Inflamos la vista desde el xml
-        View v = inflador.inflate(R.layout.elemento_selector, null); return new ViewHolder(v);
+        View v =
+                inflador.inflate(R.layout.elemento_selector, null);
+        v.setOnClickListener(onClickListener);
+        return new ViewHolder(v);
     }
+
+    // Usando como base el ViewHolder y lo personalizamos
     // Usando como base el ViewHolder y lo personalizamos
     @Override
-    public void onBindViewHolder(ViewHolder holder, int posicion) { Libro libro = vectorLibros.elementAt(posicion); holder.portada.setImageResource(libro.recursoImagen); holder.titulo.setText(libro.titulo);
+    public void onBindViewHolder(ViewHolder holder, int posicion) {
+        Libro libro = vectorLibros.elementAt(posicion);
+        holder.portada.setImageResource(libro.recursoImagen);
+        holder.titulo.setText(libro.titulo);
     }
     // Indicamos el número de elementos de la lista
     @Override public int getItemCount() {
