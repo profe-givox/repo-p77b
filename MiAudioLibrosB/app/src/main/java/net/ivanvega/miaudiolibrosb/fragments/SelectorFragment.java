@@ -14,6 +14,7 @@ import android.widget.Toast;
 import net.ivanvega.miaudiolibrosb.AdaptadorLibros;
 import net.ivanvega.miaudiolibrosb.InfoGlobal;
 import net.ivanvega.miaudiolibrosb.Libro;
+import net.ivanvega.miaudiolibrosb.MainActivity;
 import net.ivanvega.miaudiolibrosb.R;
 
 import java.util.Vector;
@@ -47,12 +48,22 @@ public class SelectorFragment extends Fragment {
         recyclerView = (RecyclerView) vista.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new GridLayoutManager(actividad,2));
         recyclerView.setAdapter(adaptador);
+
         adaptador.setOnItemClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(actividad, "Seleccionado el elemento: "
-                        + recyclerView.getChildAdapterPosition(v), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(actividad, "Seleccionado el elemento: "
+//                        + recyclerView.getChildAdapterPosition(v), Toast.LENGTH_SHORT).show();
+
+
+                ((MainActivity) actividad)
+                        .mostrarDetalle(
+                                recyclerView.getChildAdapterPosition(v));
+
+
+
             } });
+
         return vista;
     }
 }

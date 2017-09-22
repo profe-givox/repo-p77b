@@ -49,6 +49,18 @@ public class DetalleFragment extends Fragment
 
     }
 
+    @Override
+    public void onStop() {
+        mediaController.hide();
+        try {
+            mediaPlayer.stop();
+            mediaPlayer.release();
+        } catch (Exception e) {
+            Log.d("Audiolibros", "Error en mediaPlayer.stop()");
+            }
+        super.onStop();
+    }
+
     private void ponInfoLibro(int id, View vista) {
         Libro libro = Libro.ejemploLibros().elementAt(id) ;
 
@@ -72,6 +84,10 @@ public class DetalleFragment extends Fragment
             Log.e("Audiolibros", "ERROR: No se puede reproducir "+audio,e); }
     }
 
+    public void ponInfoLibro(int id) {
+        ponInfoLibro(id, getView());
+    }
+
     @Override
     public boolean onTouch(View view, MotionEvent motionEvent) {
         mediaController.show();
@@ -92,32 +108,35 @@ public class DetalleFragment extends Fragment
 
     @Override
     public void start() {
-
+        mediaPlayer.start();
     }
 
     @Override
     public void pause() {
-
+        mediaPlayer.pause();
     }
 
     @Override
     public int getDuration() {
-        return 0;
+
+        return mediaPlayer.getDuration();
     }
 
     @Override
     public int getCurrentPosition() {
-        return 0;
+
+        return mediaPlayer.getCurrentPosition();
     }
 
     @Override
     public void seekTo(int i) {
-
+        mediaPlayer.seekTo(i);
     }
 
     @Override
     public boolean isPlaying() {
-        return false;
+
+        return mediaPlayer.isPlaying();
     }
 
     @Override
@@ -127,17 +146,17 @@ public class DetalleFragment extends Fragment
 
     @Override
     public boolean canPause() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean canSeekBackward() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean canSeekForward() {
-        return false;
+        return true;
     }
 
     @Override

@@ -1,6 +1,7 @@
 package net.ivanvega.miaudiolibrosb;
 
 import android.app.LauncherActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.AppCompatTextView;
@@ -19,6 +20,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import net.ivanvega.miaudiolibrosb.fragments.DetalleFragment;
+import net.ivanvega.miaudiolibrosb.fragments.SelectorFragment;
+
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
@@ -27,35 +31,39 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_main_fragment_hardcoded);
+        setContentView(R.layout.content_main);
 
-
-//        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-//        final InfoGlobal info = InfoGlobal.getInstancia();
-//        info.inicializa(this);
-//        AdaptadorLibros adp =   info.getAdaptador();
-//        adp.setOnItemClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                int position = recyclerView.getChildAdapterPosition(view);
-//                String t = ((TextView)view.findViewById(R.id.titulo)).getText().toString();
-//                Toast.makeText(getApplication(),
-//                        "Elememto seleccioando: " + t,
-//                        Toast.LENGTH_SHORT).show();
-//
-//                Libro l = InfoGlobal.getInstancia().getVectorLibros().elementAt(position);
-//
-//
-//            }
-//        });
-//                recyclerView.setAdapter(adp);
-////        layoutManager = new LinearLayoutManager(this);
-//        layoutManager = new GridLayoutManager(this, 2);
-//        recyclerView.setLayoutManager(layoutManager);
+        if ((findViewById(R.id.contenedor_pequeno) != null)
+                && (getSupportFragmentManager().findFragmentById(
+                R.id.contenedor_pequeno) == null)){
+            SelectorFragment primerFragment = new SelectorFragment();
+            getSupportFragmentManager().beginTransaction()
+                    .add(R.id.contenedor_pequeno, primerFragment)
+                    .commit();
+        }
 
 
     }
 
+    public void mostrarDetalle(int id) {
+        DetalleFragment detalleFragment =
+                (DetalleFragment) getSupportFragmentManager()
+                        .findFragmentById(R.id.detalle_fragment);
+        if (detalleFragment != null) {
+            detalleFragment.ponInfoLibro(id);
+        }
+        else {
+            DetalleFragment nuevoFragment = new DetalleFragment();
+            Bundle args = new Bundle();
+            args.putInt(DetalleFragment.ARG_ID_LIBRO, id);
+            nuevoFragment.setArguments(args);
+            FragmentTransaction transaccion = getSupportFragmentManager()
+                    .beginTransaction();
+            transaccion.replace(R.id.contenedor_pequeno, nuevoFragment);
+            transaccion.addToBackStack(null);
 
+            transaccion.commit();
+        }
+    }
 
 }
