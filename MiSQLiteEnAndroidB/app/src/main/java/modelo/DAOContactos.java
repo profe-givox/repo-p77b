@@ -32,6 +32,20 @@ public class DAOContactos {
         return  _midb.insert(MiSQLiteOpenHelper.TABLE_CONTACTOS_NAME,null,cv);
     }
 
+    public long update(Contacto c){
+        ContentValues cv = new ContentValues();
+
+        cv.put(MiSQLiteOpenHelper.COLUMNS_NAME_TABLE_CONTACTOS[1], c.getNombre());
+        cv.put(MiSQLiteOpenHelper.COLUMNS_NAME_TABLE_CONTACTOS[2], c.getCorreo_electronico());
+
+        return _midb.update(MiSQLiteOpenHelper.TABLE_CONTACTOS_NAME,
+                cv,
+                "_id=?",
+                new String[]{String.valueOf(c.getId())}
+                );
+
+    }
+
     public List<Contacto> getAll(){
         List<Contacto> lstC=null;
 

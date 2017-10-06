@@ -6,7 +6,7 @@ import java.util.Date;
  * Created by alcohonsilver on 05/10/17.
  */
 
-class Contacto {
+public class Contacto {
 
 
     private long  id;
@@ -75,5 +75,9 @@ class Contacto {
     String telefono;
     Date fecha_nacimiento;
 
+    @Override
+    public String toString() {
+        return this.nombre + "\n" + this.correo_electronico;
+    }
 }
 
