@@ -1,0 +1,7 @@
+#Tue Oct 17 08:26:53 CDT 2017
+base.0=/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9f5343817572f6cc1e33cca549d2ff28fcbe1eb6
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e3d18601888b277b67cce9605301b5b305133433/classes.dex
+base.1=/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e3d18601888b277b67cce9605301b5b305133433
+file.0=/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9f5343817572f6cc1e33cca549d2ff28fcbe1eb6/classes.dex

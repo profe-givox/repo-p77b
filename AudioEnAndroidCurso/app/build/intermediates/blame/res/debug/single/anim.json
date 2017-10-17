@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/res/anim/abc_slide_in_bottom.xml"
+    }
+]

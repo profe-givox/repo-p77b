@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5738664b20c42408888a84fc82641b22da04fad">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9f5343817572f6cc1e33cca549d2ff28fcbe1eb6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_21b54fe714d0121878887b8f197aef634dcf2fd6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/1bd45c11e26f0466611460ac934613074e2b84f7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b4f2bac80548b4d8651b7ea38fc2d8f30889d29a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/f480d647c151608697c42ccb0af86028aa3a7059/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7818252eca5fc4cf4032082c77249a1d8e83bb5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/f807e2cf9ab7c7f3508e79a294edbbca79ae9f3b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e74998ba540049408270734fd2c79d5874b864a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/cb1cc6cb040add422b4dc0310df7841a3ff2789e/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_341be8b9afde1806d24a8c73321d7d3988855369/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/ba0cfef18a8ea136e41ff9b8934d56afc9fe33c4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5b30652c620eea0381b317a3e944569c6e6d8b82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/cb1cc6cb040add422b4dc0310df7841a3ff2789e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6957e0b40ae4559f59f18628535081ffa1ea16c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/254b1c598398372a9a195724dd31e52866818092/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7a840f9cea1036768e6e35c449944abeed3cbded/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/0e9da667e3fbb74f3da9c7cc8b0adf49403ce7b0/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e507b4a459a56528042d962721fe76f0ec583521/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/0e9da667e3fbb74f3da9c7cc8b0adf49403ce7b0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f752466916c5617474cee159ee7130325d35b06c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/254b1c598398372a9a195724dd31e52866818092/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5425a5f6b1f2303db0002451e4f03571b5b59700/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/2ccd0881c4f181bcc2131c5469fdf84cf56cdda7/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_27af86667da76395df53cd076284d5c435d1da4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/2ccd0881c4f181bcc2131c5469fdf84cf56cdda7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_667cb86ab60f88e183a625860e1a2898576b0841/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_0c752ed52f9527210e3cb63f2fd77897def7e9cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/.android/build-cache/ba0cfef18a8ea136e41ff9b8934d56afc9fe33c4/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e8d98f39ab0c7457ff7ba4a57051f66377e64d06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e3d18601888b277b67cce9605301b5b305133433/classes.dex" />
+    </item>
+
+</items>

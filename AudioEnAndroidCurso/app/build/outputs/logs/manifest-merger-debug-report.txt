@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] /Users/alcohonsilver/.android/build-cache/f480d647c151608697c42ccb0af86028aa3a7059/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/alcohonsilver/.android/build-cache/0e9da667e3fbb74f3da9c7cc8b0adf49403ce7b0/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/alcohonsilver/.android/build-cache/cb1cc6cb040add422b4dc0310df7841a3ff2789e/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/alcohonsilver/.android/build-cache/254b1c598398372a9a195724dd31e52866818092/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/alcohonsilver/.android/build-cache/2ccd0881c4f181bcc2131c5469fdf84cf56cdda7/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/alcohonsilver/.android/build-cache/f807e2cf9ab7c7f3508e79a294edbbca79ae9f3b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/alcohonsilver/.android/build-cache/1bd45c11e26f0466611460ac934613074e2b84f7/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.1] /Users/alcohonsilver/.android/build-cache/ba0cfef18a8ea136e41ff9b8934d56afc9fe33c4/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.1] /Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:13:22-68
+uses-permission#android.permission.CAMERA
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:14:22-62
+application
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:16:5-47:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/alcohonsilver/.android/build-cache/c44e1a84e28a565afdb7e31fe5a90709eabe54f7/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /Users/alcohonsilver/.android/build-cache/f480d647c151608697c42ccb0af86028aa3a7059/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/alcohonsilver/.android/build-cache/0e9da667e3fbb74f3da9c7cc8b0adf49403ce7b0/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/alcohonsilver/.android/build-cache/cb1cc6cb040add422b4dc0310df7841a3ff2789e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/alcohonsilver/.android/build-cache/254b1c598398372a9a195724dd31e52866818092/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/alcohonsilver/.android/build-cache/2ccd0881c4f181bcc2131c5469fdf84cf56cdda7/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/alcohonsilver/.android/build-cache/f807e2cf9ab7c7f3508e79a294edbbca79ae9f3b/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/alcohonsilver/.android/build-cache/1bd45c11e26f0466611460ac934613074e2b84f7/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /Users/alcohonsilver/.android/build-cache/ba0cfef18a8ea136e41ff9b8934d56afc9fe33c4/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:19:9-41
+	android:allowBackup
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:18:9-45
+	android:theme
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:20:9-40
+activity#net.ivanvega.audioenandroidcurso.MainActivity
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:label
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:22:13-73
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:27:27-74
+activity#net.ivanvega.audioenandroidcurso.ActivityCapturarAudio
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:30:9-38:16
+	android:label
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:32:9-38
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:31:9-78
+intent-filter#android.intent.category.DEFAULT+net.ivanvega.audioenandroidcurso.CAPTURARAUDIO
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:33:9-37:25
+action#net.ivanvega.audioenandroidcurso.CAPTURARAUDIO
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:34:13-85
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:34:21-82
+category#android.intent.category.DEFAULT
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:36:13-72
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:36:23-69
+activity#net.ivanvega.audioenandroidcurso.CapturaFoto
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:39:9-42:20
+	android:label
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:41:13-64
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:40:13-72
+activity#net.ivanvega.audioenandroidcurso.CapturaVideo
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:43:9-46:20
+	android:label
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:45:13-65
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77a/AudioEnAndroidCurso/app/src/main/AndroidManifest.xml:44:13-73
