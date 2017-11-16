@@ -1,11 +1,18 @@
 package net.ivanvega.nootofocacionesydialogosb;
 
+import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.app.Notification;
 import android.content.DialogInterface;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.NotificationManagerCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.NotificationCompat;
+import android.util.Log;
 import android.view.View;
+import android.widget.DatePicker;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -104,5 +111,43 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void btnTimePicker_click (View V){
+        DialogFragment   dialog  =
+                new MiTimePickerDialogFragment();
 
+        dialog.show(getSupportFragmentManager(),"MiPicker");
+
+    }
+
+    public void btnDatePicker_click(View v){
+
+
+        DatePickerDialog dlg  =
+                new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        Log.d("DATEPICKER", "Fecha seleccionada: "
+                                + String.valueOf(dayOfMonth) + "/" +
+                                String.valueOf(month) + "/" + String.valueOf(year));
+                    }
+                }, 2017, 11, 9);
+
+        dlg.show();
+
+
+    }
+
+    public void btnNoficacionBarra_click(View v){
+        Notification notificacion  =
+                new NotificationCompat.Builder(this)
+                .setSmallIcon(R.mipmap.ic_launcher_round)
+                        .setContentTitle("Notificacion titulo")
+                .setContentText("Mi notitcacion cuerpo")
+                .build();
+
+        NotificationManagerCompat nm =
+                NotificationManagerCompat.from(this);
+
+        nm.notify(1001, notificacion );
+    }
 }

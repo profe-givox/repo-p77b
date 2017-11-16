@@ -36,5 +36,26 @@
         android:onClick="btnNot_click"
         android:text="Notofocacion en barra de tareas" />
 
+    <Button
+        android:id="@+id/btnTimePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnTimePicker_click"
+        android:text="Time Picker Dialog" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnDatePicker_click"
+        android:text="Date Picker Dialog" />
+
+    <Button
+        android:id="@+id/btnNoficacionBarra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnNoficacionBarra_click"
+        android:text="Notifacion en barra de tareas" />
+
 
 </LinearLayout>
