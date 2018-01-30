@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/build/intermediates/res/merged/debug/layout_layout_item_usuario.xml.flat",
+        "source": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/res/layout/layout_item_usuario.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/build/intermediates/res/merged/debug/layout_activity_reg_usuario.xml.flat",
+        "source": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/res/layout/activity_reg_usuario.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/build/intermediates/res/merged/debug/menu_reg_usuario.xml.flat",
+        "source": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/res/menu/reg_usuario.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    }
+]

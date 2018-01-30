@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\SERVIDOR\\AndroidStudioProjects\\SqliteEnAndroidCursoAlum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reg_usuario.xml",
+        "source": "C:\\Users\\SERVIDOR\\AndroidStudioProjects\\SqliteEnAndroidCursoAlum\\app\\src\\main\\res\\layout\\activity_reg_usuario.xml"
+    },
+    {
+        "merged": "C:\\Users\\SERVIDOR\\AndroidStudioProjects\\SqliteEnAndroidCursoAlum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_item_usuario.xml",
+        "source": "C:\\Users\\SERVIDOR\\AndroidStudioProjects\\SqliteEnAndroidCursoAlum\\app\\src\\main\\res\\layout\\layout_item_usuario.xml"
+    },
+    {
+        "merged": "C:\\Users\\SERVIDOR\\AndroidStudioProjects\\SqliteEnAndroidCursoAlum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\SERVIDOR\\AndroidStudioProjects\\SqliteEnAndroidCursoAlum\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]
