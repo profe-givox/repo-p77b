@@ -5,12 +5,14 @@ import net.ivanvega.sqliteenandroidcurso.datos.UsuariosDAO;
 import net.ivanvega.sqliteenandroidcurso.modelo.Usuario;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteCursor;
 import android.os.Bundle;
+import android.provider.UserDictionary;
 import android.support.v4.widget.SimpleCursorAdapter;
 import android.util.Log;
 import android.view.ContextMenu;
@@ -29,7 +31,19 @@ public class MainActivity extends Activity {
 	UsuariosDAO dao;
 	private int _id;
 	private int _idList;
-	
+
+
+	public void btnCPD_click(View v){
+		Cursor cd = getContentResolver().query(
+				UserDictionary.Words.CONTENT_URI,
+				new String[]{
+						UserDictionary.Words._ID,
+						UserDictionary.Words.WORD,
+						UserDictionary.Words.LOCALE
+				},null,null,null
+		);
+	}
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -129,9 +143,9 @@ public class MainActivity extends Activity {
 		_id = idUsuario;
 		AlertDialog.Builder adb = new AlertDialog.Builder(this);
 		adb.setTitle("Elimniar usuario");
-		adb.setMessage("¿Deseas eliminar el usuario?");
+		adb.setMessage("Deseas eliminar el usuario?");
 		adb.setIcon(R.drawable.ic_launcher);
-		adb.setPositiveButton("Sí", new OnClickListener() {
+		adb.setPositiveButton("Si", new OnClickListener() {
 			
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
