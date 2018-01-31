@@ -21,6 +21,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView.AdapterContextMenuInfo;
+import android.widget.CursorAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -34,6 +35,9 @@ public class MainActivity extends Activity {
 
 
 	public void btnCPD_click(View v){
+
+		Log.d("CP","Entro al boton");
+
 		Cursor cd = getContentResolver().query(
 				UserDictionary.Words.CONTENT_URI,
 				new String[]{
@@ -42,6 +46,23 @@ public class MainActivity extends Activity {
 						UserDictionary.Words.LOCALE
 				},null,null,null
 		);
+
+		 Log.d("CP" , "Elementos: " +  String.valueOf( cd.getCount()));
+
+		SimpleCursorAdapter spa = new SimpleCursorAdapter
+				(
+						this, android.R.layout.simple_list_item_2,
+						cd,new String[]{
+						UserDictionary.Words._ID,
+						UserDictionary.Words.WORD},
+						new int[]{android.R.id.text1, android.R.id.text2},
+						SimpleCursorAdapter.FLAG_REGISTER_CONTENT_OBSERVER
+
+				);
+
+
+		lst.setAdapter(spa);
+
 	}
 
 	@Override

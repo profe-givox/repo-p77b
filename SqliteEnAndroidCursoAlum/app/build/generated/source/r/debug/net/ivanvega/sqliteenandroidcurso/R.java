@@ -17,15 +17,16 @@ public final class R {
   }
   public static final class id {
     public static final int action_settings=0x7f030000;
-    public static final int btnCancelar=0x7f030001;
-    public static final int btnGuardar=0x7f030002;
-    public static final int lblID=0x7f030003;
-    public static final int lblItemEmail=0x7f030004;
-    public static final int lblItemNombre=0x7f030005;
-    public static final int lst=0x7f030006;
-    public static final int txtEmail=0x7f030007;
-    public static final int txtNombre=0x7f030008;
-    public static final int txtPass=0x7f030009;
+    public static final int btnCPD=0x7f030001;
+    public static final int btnCancelar=0x7f030002;
+    public static final int btnGuardar=0x7f030003;
+    public static final int lblID=0x7f030004;
+    public static final int lblItemEmail=0x7f030005;
+    public static final int lblItemNombre=0x7f030006;
+    public static final int lst=0x7f030007;
+    public static final int txtEmail=0x7f030008;
+    public static final int txtNombre=0x7f030009;
+    public static final int txtPass=0x7f03000a;
   }
   public static final class layout {
     public static final int activity_main=0x7f040000;
