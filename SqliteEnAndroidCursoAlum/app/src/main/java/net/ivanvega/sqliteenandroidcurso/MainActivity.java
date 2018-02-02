@@ -12,6 +12,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteCursor;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.provider.UserDictionary;
 import android.support.v4.widget.SimpleCursorAdapter;
 import android.util.Log;
@@ -61,7 +62,33 @@ public class MainActivity extends Activity {
 				);
 
 
-		lst.setAdapter(spa);
+		 Cursor cc = getContentResolver().query(
+				ContactsContract.Contacts.CONTENT_URI,
+				new String[]{
+						ContactsContract.Contacts._ID,
+						ContactsContract.Contacts.DISPLAY_NAME
+
+				},null, null, null
+		);
+
+		 SimpleCursorAdapter sca = new SimpleCursorAdapter
+				 (
+				 		this,
+						 android.R.layout.simple_list_item_2,
+						 cc,
+						 new String[]{
+								 ContactsContract.Contacts._ID,
+								 ContactsContract.Contacts.DISPLAY_NAME
+
+						 },
+						 new int[]{android.R.id.text1, android.R.id.text2},
+						 SimpleCursorAdapter.FLAG_REGISTER_CONTENT_OBSERVER
+
+
+				 );
+
+
+		lst.setAdapter(sca);
 
 	}
 
