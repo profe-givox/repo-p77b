@@ -99,7 +99,38 @@ public class ProviderUser extends ContentProvider {
 
     @Override
     public String getType(Uri uri) {
-        return null;
+        String strTipoMIME="";
+
+        switch (sUriMatcher.match(uri)) {
+
+
+            // If the incoming URI was for all of table3
+            case 1:
+
+                strTipoMIME = "vnd.android.cursor.dir/vnd.net.ivanvega.sqliteenandroidcurso.provider.usuario";
+
+                break;
+
+            // If the incoming URI was for a single row
+            case 2:
+
+
+                strTipoMIME = "vnd.android.cursor.item/vnd.net.ivanvega.sqliteenandroidcurso.provider.usuario";
+                break;
+
+            case 3:
+
+                strTipoMIME = "vnd.android.cursor.dir/vnd.net.ivanvega.sqliteenandroidcurso.provider.usuario";
+
+
+                break;
+            default:
+                break;
+            // If the URI is not recognized, you should do some error handling here.
+        }
+
+
+        return strTipoMIME;
     }
 
     @Override

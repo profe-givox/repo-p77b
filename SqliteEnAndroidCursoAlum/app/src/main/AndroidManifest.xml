@@ -38,7 +38,8 @@
 
         <provider
             android:authorities="net.ivanvega.sqliteenandroidcurso.provider"
-            android:name=".provider.ProviderUser">
+            android:name=".provider.ProviderUser"
+            android:exported="true">
 
         </provider>
     </application>
