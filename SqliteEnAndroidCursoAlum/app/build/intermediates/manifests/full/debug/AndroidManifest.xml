@@ -38,6 +38,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="net.ivanvega.sqliteenandroidcurso.provider.ProviderUser"
+            android:authorities="net.ivanvega.sqliteenandroidcurso.provider"
+            android:exported="true" >
+        </provider>
     </application>
 
 </manifest>

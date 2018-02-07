@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:3:5-48
 		INJECTED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml
@@ -44,7 +44,7 @@ ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidC
 	android:name
 		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:12:22-69
 application
-ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:15:5-38:19
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:15:5-45:19
 	android:label
 		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:18:9-41
 	android:icon
@@ -87,3 +87,11 @@ category#android.intent.category.DEFAULT
 ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:35:17-75
 	android:name
 		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:35:27-73
+provider#net.ivanvega.sqliteenandroidcurso.provider.ProviderUser
+ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:39:9-44:20
+	android:authorities
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:40:13-77
+	android:exported
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:42:13-36
+	android:name
+		ADDED from /Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/src/main/AndroidManifest.xml:41:13-50

@@ -1,4 +1,4 @@
-#Wed Jan 31 08:41:01 CST 2018
+#Wed Feb 07 15:12:03 CST 2018
 base.0=/Users/alcohonsilver/AndroidStudioProjects/repo-p77b/SqliteEnAndroidCursoAlum/app/build/intermediates/transforms/dexMerger/debug/1
 path.0=classes.dex
 renamed.0=classes.dex

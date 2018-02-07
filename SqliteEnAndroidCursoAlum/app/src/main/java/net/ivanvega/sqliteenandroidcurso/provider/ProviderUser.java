@@ -54,7 +54,7 @@ public class ProviderUser extends ContentProvider {
     @Override
     public Cursor query(Uri uri, String[] strings, String s, String[] strings1, String s1) {
 
-        Cursor c;
+        Cursor c=null;
 
         /*
          * Choose the table to query and a sort order based on the code returned for the incoming
@@ -94,7 +94,7 @@ public class ProviderUser extends ContentProvider {
         }
         // call the code to actually do the query
 
-        return null;
+        return c;
     }
 
     @Override
