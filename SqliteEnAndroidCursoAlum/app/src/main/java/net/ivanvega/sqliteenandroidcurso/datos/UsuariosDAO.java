@@ -38,6 +38,19 @@ public class UsuariosDAO {
 		}
 	}
 
+	public long insert(ContentValues cv) {
+
+
+		try {
+			return _ad.insert(DBUsuarios.TABLE_NAME_USUARIOS,
+					null, cv) ;
+		} catch (SQLiteException e) {
+			// TODO: handle exception
+			throw e;
+		}
+	}
+
+
 	public boolean update(Usuario usuario) {
 		ContentValues cv = new ContentValues();
 

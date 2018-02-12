@@ -135,7 +135,31 @@ public class ProviderUser extends ContentProvider {
 
     @Override
     public Uri insert(Uri uri, ContentValues contentValues) {
-        return null;
+        long idinsertado =0;
+
+        switch (sUriMatcher.match(uri)) {
+
+
+            // If the incoming URI was for all of table3
+            case 1:
+                  idinsertado = _dao.insert(contentValues);
+
+                break;
+
+            // If the incoming URI was for a single row
+            case 2:
+                break;
+
+            case 3:
+
+                break;
+            default:
+                break;
+            // If the URI is not recognized, you should do some error handling here.
+        }
+
+
+        return Uri.withAppendedPath(uri,String.valueOf(idinsertado));
     }
 
     @Override
