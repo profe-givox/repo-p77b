@@ -1,9 +1,11 @@
 package net.ivanvega.clientecpusuariosb;
 
+import android.content.ContentValues;
 import android.database.Cursor;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
@@ -23,8 +25,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnCCP_click(View v){
 
-        Cursor c = getContentResolver().query(Uri.parse(   UsuarioContrato.CONTENT_URI),null, null,
+        Cursor c = getContentResolver().query(Uri.parse(   UsuarioContrato.CONTENT_URI),
+                null, null,
         null, null );
+
+        Log.d("CPU", String.valueOf(c.getCount()));
 
         SimpleCursorAdapter sca =
                 new SimpleCursorAdapter(this,android.R.layout.simple_list_item_2,
@@ -40,4 +45,21 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    public void insertar(){
+
+        ContentValues cv = new ContentValues();
+
+        cv.put(UsuarioContrato.FIELD_NAME, "Perro Negro");
+        cv.put(UsuarioContrato.FIELD_EMAIL, "PerroNegro@dog.com");
+        cv.put(UsuarioContrato.FIELD_PASS, "MiPerrita");
+
+         Uri u = getContentResolver().insert( Uri.parse(  UsuarioContrato.CONTENT_URI),
+
+            cv
+        )   ;
+
+         Log.d("PERRRONEGGRO", u.toString());
+    }
+
 }
