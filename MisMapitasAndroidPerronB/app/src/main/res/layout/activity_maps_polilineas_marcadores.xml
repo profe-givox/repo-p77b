@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="match_parent"
+<LinearLayout
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android" >
@@ -10,31 +10,23 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Opciones"
-            android:id="@+id/btnOpcion"
+            android:text="Marcador"
+            android:id="@+id/btnMarcador"
             />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mover"
-            android:id="@+id/btnMover"
+            android:text="Lineas"
+            android:id="@+id/btnLineas"
 
             />
 
         <Button
-            android:id="@+id/btnAnimar"
+            android:id="@+id/btnPoligono"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Animar"
-
-            />
-
-        <Button
-            android:id="@+id/btnPosc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Posición"
+            android:text="Poligono"
 
             />
 
@@ -43,8 +35,8 @@
     <fragment
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:id="@+id/map"
+        android:id="@+id/map_markers"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
 </LinearLayout>
